@@ -1,0 +1,84 @@
+body {
+    background-color: #000000;
+    color: #ffffff;
+    font-family: 'Segoe UI', Arial, sans-serif;
+    overflow-x: hidden;
+}
+
+
+.navbar {
+    background-color: #111111;
+    border-bottom: 1px solid #333333;
+}
+
+.navbar-toggler {
+    border-color: rgba(255, 255, 255, 0.5) !important;
+}
+
+.nav-link {
+    color: #ffffff !important;
+    text-align: center;
+    font-weight: bold;
+    padding: 12px 0;
+}
+
+.nav-link:hover {
+    color: #ff0000 !important;
+}
+
+
+.hero-header {
+    background-color: #1a1a1a;
+    background-image: url('AOT_BACKGROUND.jpg');
+    background-size: cover;
+    background-position: center;
+    background-blend-mode: multiply;
+    padding: 100px 15px;
+    text-align: center;
+    border-bottom: 3px solid #ff0000;
+}
+
+.hero-header h1 {
+    font-size: calc(2.5rem + 1.5vw);
+    font-weight: 900;
+    text-transform: uppercase;
+    text-shadow: 2px 2px 10px rgba(0,0,0,0.8);
+}
+
+
+h2 {
+    color: #ffffff;
+    text-transform: uppercase;
+    font-weight: 800;
+    margin-top: 40px;
+}
+
+.text-item {
+    margin-bottom: 15px;
+    line-height: 1.6;
+}
+
+.text-label {
+    font-weight: bold;
+    color: #ff0000;
+}
+
+
+footer {
+    background-color: #111111;
+    padding: 40px 15px;
+    margin-top: 80px;
+    border-top: 1px solid #333333;
+    text-align: center;
+    font-size: 0.9rem;
+}
+
+.footer-link {
+    color: #ffffff;
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+.footer-link:hover {
+    color: #ff0000;
+}
